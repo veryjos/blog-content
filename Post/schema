@@ -1,0 +1,7 @@
+[fields]
+title = 'str'
+author = 'Author'
+summary = 'str'
+summary_short = 'str'
+publish_date = 'str'
+thumbnail = 'bin'

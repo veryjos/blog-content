@@ -1,0 +1,4 @@
+[fields]
+nickname = "str"
+full_name = "str"
+email = "str"
