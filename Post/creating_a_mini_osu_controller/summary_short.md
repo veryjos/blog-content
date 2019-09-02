@@ -1,3 +1,1 @@
-It's that time of year again- **Secret Santa**. Usually I like to go custom.
-
-This is how I made a **mini keyboard** for an osu! fanatic.
+For this year's **Secret Santa**, I made my giftee a **custom mini keyboard** to play his favorite game, **osu!**

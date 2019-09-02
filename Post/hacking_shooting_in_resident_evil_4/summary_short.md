@@ -1,3 +1,1 @@
-For one of my projects, I need to inject custom code into **Resident Evil 4**.
-
-Using **ollydbg**, I'll show how to **shoot bullets** between arbitrary locations.
+I'm working on a project related to **Resident Evil 4**. Here's how I hacked the shooting mechanic!

@@ -57,7 +57,7 @@ Looks good! I soldered some pins on the edges for testing, and with that we can 
 
 ## Software
 
-My `microcontroller` of choice for this prototype is a **[Teensy LC](https://www.pjrc.com/teensy/teensyLC.html)**. The **Teensy** has all the hardware we need onboard, including capacitance-measuring circuits and a USB controller.
+My microcontroller of choice for this prototype is a **[Teensy LC](https://www.pjrc.com/teensy/teensyLC.html)**. The **Teensy** has all the hardware we need onboard, including capacitance-measuring circuits and a USB controller.
 
 For the **final design**, I'll have to create my own board.
 
