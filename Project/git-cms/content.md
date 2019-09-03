@@ -1,6 +1,6 @@
 ## git-cms
 
-A cms with **strongly-typed entity relationships**. This blog is backed by it, and that's really all it's for- to make my life easier when updating this blog.
+A strongly typed, **headless CMS**. Built in **Rust** using **Rocket**. Currently serving **this website**.
 
 Content is backed by a **git repository** for easy versioning and maintenance. Here's the [repository that powers this blog](https://github.com/veryjos/blog-content).
 

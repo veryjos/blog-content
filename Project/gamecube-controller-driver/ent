@@ -1,3 +1,4 @@
 title = "gamecube-controller-driver"
 tags = "tools,linux,macos,pc"
 category = "tools"
+rank = 2
