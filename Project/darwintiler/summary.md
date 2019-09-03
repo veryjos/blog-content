@@ -1,1 +1,1 @@
-A minimal **cross-platform window tiler** for **MacOS** or **Linux (X11)**.
+A minimal, **cross-platform window tiler** for **MacOS** or **Linux (X11)**.
