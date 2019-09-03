@@ -1,0 +1,5 @@
+[fields]
+title = 'str'
+content = 'str'
+summary = 'str'
+category = 'str'
