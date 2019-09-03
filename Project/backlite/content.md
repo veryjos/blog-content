@@ -1,6 +1,6 @@
 ## backlite
 
-A **program** to control monitor brightness over **CLI**.
+A **Linux CLI** to control monitor brightness.
 
 Compatible with **Linux** and "**intel_backlight**"-driven monitors.
 
