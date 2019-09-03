@@ -2,7 +2,7 @@
 
 Hello, my name is **Joseph Delgado**. I'm a software engineer based out of New Jersey.
 
-I'm a **full-stack developer** by trade, but I have a strong and varied skill set.
+I'm a **full-stack developer** by trade, but I also do **game development**, **low-level programming**, and **reverse engineering** in my spare time.
 
 In addition to programming, I also enjoy rock climbing, backpacking, and ultimate frisbee.
 
