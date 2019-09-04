@@ -1,1 +1,1 @@
-A **frontend** and **matchmaking/ranking** platform for Super Smash Bros. Melee online multiplayer.
+A **mutiplayer matchmaking** platform for Super Smash Bros. Melee.

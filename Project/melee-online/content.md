@@ -1,20 +1,16 @@
-## melee-online
+## Melee Online
 
-A **frontend** and **matchmaking/ranking** platform for Super Smash Bros. Melee online multiplayer.
+A **multiplayer matchmaking** platform for Super Smash Bros. Melee.
+
+[[ Carousel 0="eIrVGp3Uck0" ]]
+
+**Links**: [Alpha Signups](http://meleeonline.net/)
 
 Facilitates a **modern multiplayer experience** end-to-end with features like:
 
+  - Custom game lobbies
   - Matchmaking
   - Ranks
-  - Custom game lobbies
   - Skins
 
-This is an unreleased ongoing project, with over 10,000 users pre-registered.
-
-Frontend: **TypeScript**, **Node**, and **React**.
-
-Backend: **go**, **TypeScript**, and **node**.
-
-Low-level injected code: **PowerPC ISA** and **Frida**.
-
-Dolphin-based client: **C++**.
+This is an **ongoing project**, with over 10,000 users pre-registered.

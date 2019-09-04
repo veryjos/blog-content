@@ -1,1 +1,1 @@
-A **virtual reality** hack for **Grand Theft Auto: V** that adds **6dof head/hand tracking**.
+A **virtual reality** hack for **Grand Theft Auto: V**. Adds hand and head tracking.

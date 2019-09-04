@@ -1,1 +1,1 @@
-A strongly typed, **headless CMS**. Built in **Rust** using **Rocket**. Currently serving **this website**.
+A strongly typed, **headless CMS** written in **Rust**. Currently serving **this website**.

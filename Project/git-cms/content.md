@@ -1,7 +1,9 @@
 ## git-cms
 
-A strongly typed, **headless CMS**. Built in **Rust** using **Rocket**. Currently serving **this website**.
+A strongly typed, **headless CMS** written in **Rust**. Currently serving **this website**.
 
-Content is backed by a **git repository** for easy versioning and maintenance. Here's the [repository that powers this blog](https://github.com/veryjos/blog-content).
+**Links**: [repository that powers this blog](https://github.com/veryjos/blog-content)
+
+git-cms uses a **git repository** as a backend for easy versioning.
 
 Written in **Rust** and served with [Rocket](https://rocket.rs).
