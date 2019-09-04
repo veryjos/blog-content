@@ -10,7 +10,7 @@ This is mostly interesting because it **predates any commercial hand-tracking** 
 
 The biggest challenge of this setup was compensating for the differences in latency between the two systems, since turning your head physically changed the orientation of the base station.
 
-Features:
+### Features:
 
   - Head/head tracking with **6 degrees of freedom**
   - Skeet shooting minigame
