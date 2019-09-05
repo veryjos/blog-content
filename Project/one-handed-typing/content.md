@@ -6,10 +6,11 @@ A **program/keyboard layout** that allows users to rapidly **type with one hand*
 
 **Links**: [GitHub](http://github.com/veryjos/onehandedtyping)
 
-I made this to streamline my workflow, and now I can type 80 WPM+ average with **one hand**.
+I mostly made this to streamline my workflow. This tool lets me type **80 WPM+** with **one hand**.
 
 ### Features:
   - Supports **Linux** and **Android**
+  - Doesn't require x11 (works in **tty**)
   - Layout optimized for typing with one hand
 
 Written in **C++14**.

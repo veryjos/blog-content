@@ -14,3 +14,5 @@ Facilitates a **modern multiplayer experience** end-to-end with features like:
   - Skins
 
 This is an **ongoing project**, with over 10,000 users pre-registered.
+
+Frontend built with **React** and **TypeScript** // Backend built in **go** // Client built with **C++** and **PowerPC ISA**.

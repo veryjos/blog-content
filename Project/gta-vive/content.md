@@ -4,6 +4,8 @@ A **virtual reality** hack for **Grand Theft Auto: V**. Adds hand and head track
 
 [[ Carousel 0="f4EIXJ8XofQ" ]]
 
+**Note:** The above video is **someone else's gameplay** of my hack.
+
 **Links**: [github](https://github.com/veryjos/GTAV_OpenVR) / [download (alpha 12)](https://veryjos.com/static/gta_vive/gta_vive_alpha12.zip)
 
 This project is a reverse engineering/mod of **Grand Theft Auto: V** to add OpenVR support.
