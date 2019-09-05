@@ -20,7 +20,7 @@ The downsides are decreased portability for the build environment, and non-stand
 
 ## Example
 
-```c++
+```cpp
 /**
  * Bind a simple "Entity" class
  * CC::Bind    = Bind to JS
