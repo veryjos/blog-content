@@ -13,16 +13,9 @@ Here's the finished product:
 If you were an early adopter of the iPhone, you might have noticed a huge leap in responsiveness with its touchscreen. The iPhone was one of the first popular devices with a **capacitive touchscreen**.
 
 Despite its advantages, **capacitive sensing** is actually pretty simple, and the simplest variant can be implemented with the **[RC circuit](https://en.wikipedia.org/wiki/RC_circuit)** that you might have learned about in physics class.
-
-As your finger approaches a conductive surface, a **capacitor will be formed between them**.
-
-> image of capacitor between finger and electrode
-
-If you measure the **time** it takes to charge and discharge this capacitor, you can infer the distance to the finger.
+As your finger approaches a conductive surface, a **capacitor will be formed between them**. If you measure the **time** it takes to charge and discharge this capacitor, you can infer the distance to the finger.
 
 This allows you to measure **proximity**, but not **direction**. By using multiple electrodes at known locations, the proximity values can be used to infer an absolute location.
-
-> image of array of electrodes
 
 ## Design
 
