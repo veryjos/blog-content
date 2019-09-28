@@ -46,13 +46,13 @@ struct Entity {
 }
 ```
 
-This is how **easy** it can be to bind code from CPP <-> JS. Typings are generated for **TypeScript** users as well.
+Neat! Feels just like **decorators**, but C++ doesn't support anything like that out of the box. This is how **easy** it can be to bind code from CPP <-> JS. Typings are generated for **TypeScript** users as well.
 
 The macros used for annotating are ignored when your compiler generates the binary. They're only understood by the preprocessor I wrote with `libclang`.
 
 In your JavaScript or TypeScript, you can now use the bindings like this:
 
-```js
+```javascript
 () => {
   class Player extends Entity {
     constructor() {
