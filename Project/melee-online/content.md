@@ -13,6 +13,6 @@ Facilitates a **modern multiplayer experience** end-to-end with features like:
   - Ranks
   - Skins
 
-This is an **cancelled project**.
+This is a **cancelled project**.
 
 Frontend built with **React** and **TypeScript** // Backend built in **go** // Client built with **C++** and **PowerPC ISA**.
