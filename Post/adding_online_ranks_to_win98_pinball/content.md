@@ -16,7 +16,7 @@ Check out the live scores [here](https://veryjos.com/pinball)!
 
 To add a new high score list, there are **three events** that I need to hook:
  - Program launch -> **Inject DLL**
- - "View Highscores" -> **Display custom frontend**
+ - View Highscores -> **Display custom frontend**
  - Game over -> **Submit score to backend**
 
 ![PC from 1998](computer.jpg)
