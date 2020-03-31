@@ -14,8 +14,5 @@ The biggest challenge of this setup was compensating for the differences in late
 
   - Head/head tracking with **6 degrees of freedom**
   - Skeet shooting minigame
-  - Progressive difficulty increments
-  - VR-friendly HUD
   - Cool retro effects
-
-Written in **C++** in **Unreal Engine 4**.
+  - VR-friendly HUD

@@ -17,5 +17,3 @@ My major contributions include:
 I also ran a club on campus called **SIG: REVENGE** (Special Interest Group: Reverse Engineering) where this was a primary project.
 
 This repo/info was used as a reference by other authors to create projects like [IceSpear](https://ice-spear-tools.gitlab.io/).
-
-Tooling was written in **Python** and **C#**.
