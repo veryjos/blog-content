@@ -40,11 +40,21 @@ We're going to use **multiprocessing** to simplify the approach. We need **two s
   - The injected DLL
   - A **standalone viewer** for the high scores
 
-It's best to keep the injected DLL as **simple as possible**.
+It's best to keep the injected DLL as **simple as possible**. The DLL will only launch the viewer, and block the game thread until the viewer is closed.
 
-The DLL will only launch the viewer, and **block the game thread** until the viewer is closed.
+```c
+DWORDLONG run_command(char* command) {
+  STARTUPINFO startup_info = {sizeof(startup_info)};
+  PROCESS_INFORMATION process_info;
 
-![Multiprocessing](multiprocessing.png)
+  BOOL success = CreateProcess(NULL, command, NULL, NULL, TRUE, CREATE_NO_WINDOW, ...);
+  DWORDLONG exit_code = WaitForSingleObject(process_info.hProcess, INFINITE);
+  CloseHandle(process_info.hProcess);
+  CloseHandle(process_info.hThread);
+
+  return exit_code;
+}
+```
 
 There! Keeping our injected DLL simple lets us avoid a lot of complexity.
 
@@ -68,25 +78,17 @@ The next step is to display the frontend when the "**View Highscores**" menu opt
 
 First, we have to locate the subroutine that's **invoked when the the high-score list is opened**.
 
-
-
-Luckily, the "View Highscores" dialog enters its **own blocking event loop**. This means that all we have to do is pause the program while the high-scores list is up, and peek up the call stack.
+Luckily, the highscores dialog enters its **own blocking event loop**. This means that all we have to do is pause the program while the high-scores list is up, and peek up the call stack.
 
 ![View highscores](view_highscores.png)
 
 Yes, that's an **animated Snoop Dogg mouse cursor**. The computer club's Win98 PC is **very 90's**.
 
-We find a call to **ShowDialog**-- which we nuke into a trampoline that loads our custom frontend. The 0 passed to our subroutine indicates that we have no score to submit, and we only want to view.
-
-That lets us jump into **DLL-land**, which in-turn lets us block the game thread while we display the high score list!
+We find a call to **ShowDialog**-- which we nuke into a trampoline that loads our custom frontend. That lets us jump into **DLL-land**, which in-turn lets us block the game thread while we display the high score list!
 
 ## Hooking "Game Over"
 
 The last step is to **submit the player's score** when they lose-- so naturally, we need to be able to find the subroutine that runs when the player loses.
-
-
-
-We can use the same method as last time. Lose, submit a high score, pause the debugger while the dialog is open, and then look up the stack to find how we got there.
 
 ![Game over](game_over.jpg)
 
