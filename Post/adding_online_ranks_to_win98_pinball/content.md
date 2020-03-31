@@ -2,9 +2,9 @@
 
 As a quick project for me and my friend Brandon, we decided to upgrade the high-score experience of **Space Cadet Pinball on Windows 98**.
 
-![End result](preview.png)
-
 The **hideously era-appropriate** frontend was built to render in IE5.
+
+![End result](preview.png)
 
 I built all the native pieces, so reverse engineering the binary and writing a small program to bootstrap the UI.
 
